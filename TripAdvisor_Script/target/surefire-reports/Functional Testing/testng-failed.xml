@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="userDefinedLibraries.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test One(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke Test One"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <methods>
+          <include name="setGuest"/>
+          <include name="checkOutDate"/>
+          <include name="checkInDate"/>
+          <include name="selectDestination"/>
+        </methods>
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </classes>
+  </test> <!-- Smoke Test One(failed) -->
+  <test thread-count="5" name="Regression Test One(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Regression Test One"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <methods>
+          <include name="liftAccess"/>
+          <include name="sortBy"/>
+          <include name="hotelNames"/>
+          <include name="pricePerNight"/>
+          <include name="totalPrice"/>
+        </methods>
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </classes>
+  </test> <!-- Regression Test One(failed) -->
+  <test thread-count="5" name="Smoke Test Two(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Smoke Test Two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <methods>
+          <include name="cruiseShip"/>
+          <include name="cruises"/>
+          <include name="cruiseLine"/>
+        </methods>
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </classes>
+  </test> <!-- Smoke Test Two(failed) -->
+  <test thread-count="5" name="Regression Test Two(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Regression Test Two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <methods>
+          <include name="PassengerCrewValue"/>
+          <include name="launchedYearValue"/>
+        </methods>
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </classes>
+  </test> <!-- Regression Test Two(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="51" total="68" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-19T14:18:38 IST" name="Functional Testing" finished-at="2022-01-19T14:20:52 IST" duration-ms="133523">
+    <groups>
+      <group name="Regression Test One">
+        <method signature="TripAdvisorTestScenarios.hotelNames()[pri:7, instance:testScenarios.TripAdvisorTestScenarios@9225652]" name="hotelNames" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.liftAccess()[pri:6, instance:testScenarios.TripAdvisorTestScenarios@9225652]" name="liftAccess" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.pricePerNight()[pri:9, instance:testScenarios.TripAdvisorTestScenarios@9225652]" name="pricePerNight" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.sortBy()[pri:5, instance:testScenarios.TripAdvisorTestScenarios@9225652]" name="sortBy" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.totalPrice()[pri:8, instance:testScenarios.TripAdvisorTestScenarios@9225652]" name="totalPrice" class="testScenarios.TripAdvisorTestScenarios"/>
+      </group> <!-- Regression Test One -->
+      <group name="Smoke Test Two">
+        <method signature="TripAdvisorTestScenarios.changeWindow()[pri:13, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" name="changeWindow" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.cruiseLine()[pri:11, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" name="cruiseLine" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.cruiseShip()[pri:12, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" name="cruiseShip" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.cruises()[pri:10, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" name="cruises" class="testScenarios.TripAdvisorTestScenarios"/>
+      </group> <!-- Smoke Test Two -->
+      <group name="Smoke Test One">
+        <method signature="TripAdvisorTestScenarios.checkInDate()[pri:2, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" name="checkInDate" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.checkOutDate()[pri:3, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" name="checkOutDate" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.readData()[pri:0, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" name="readData" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.selectDestination()[pri:1, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" name="selectDestination" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.setGuest()[pri:4, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" name="setGuest" class="testScenarios.TripAdvisorTestScenarios"/>
+      </group> <!-- Smoke Test One -->
+      <group name="Regression Test Two">
+        <method signature="TripAdvisorTestScenarios.PassengerCrewValue()[pri:14, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" name="PassengerCrewValue" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.languageValue()[pri:16, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" name="languageValue" class="testScenarios.TripAdvisorTestScenarios"/>
+        <method signature="TripAdvisorTestScenarios.launchedYearValue()[pri:15, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" name="launchedYearValue" class="testScenarios.TripAdvisorTestScenarios"/>
+      </group> <!-- Regression Test Two -->
+    </groups>
+    <test started-at="2022-01-19T14:18:38 IST" name="Smoke Test One" finished-at="2022-01-19T14:20:19 IST" duration-ms="101187">
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" started-at="2022-01-19T14:18:38 IST" name="driverConfig" finished-at="2022-01-19T14:19:28 IST" duration-ms="49139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="readData()[pri:0, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" started-at="2022-01-19T14:19:28 IST" name="readData" finished-at="2022-01-19T14:19:43 IST" duration-ms="15517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="selectDestination()[pri:1, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" started-at="2022-01-19T14:19:43 IST" name="selectDestination" finished-at="2022-01-19T14:20:16 IST" duration-ms="32402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestination -->
+        <test-method signature="checkInDate()[pri:2, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" started-at="2022-01-19T14:20:16 IST" name="checkInDate" finished-at="2022-01-19T14:20:18 IST" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInDate -->
+        <test-method signature="checkOutDate()[pri:3, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" started-at="2022-01-19T14:20:18 IST" name="checkOutDate" finished-at="2022-01-19T14:20:19 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutDate -->
+        <test-method signature="setGuest()[pri:4, instance:testScenarios.TripAdvisorTestScenarios@5223e5ee]" started-at="2022-01-19T14:20:19 IST" name="setGuest" finished-at="2022-01-19T14:20:19 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGuest -->
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </test> <!-- Smoke Test One -->
+    <test started-at="2022-01-19T14:20:20 IST" name="Regression Test One" finished-at="2022-01-19T14:20:31 IST" duration-ms="11340">
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <test-method signature="sortBy()[pri:5, instance:testScenarios.TripAdvisorTestScenarios@9225652]" started-at="2022-01-19T14:20:20 IST" name="sortBy" finished-at="2022-01-19T14:20:22 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBy -->
+        <test-method signature="liftAccess()[pri:6, instance:testScenarios.TripAdvisorTestScenarios@9225652]" started-at="2022-01-19T14:20:22 IST" name="liftAccess" finished-at="2022-01-19T14:20:23 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liftAccess -->
+        <test-method signature="hotelNames()[pri:7, instance:testScenarios.TripAdvisorTestScenarios@9225652]" started-at="2022-01-19T14:20:23 IST" name="hotelNames" finished-at="2022-01-19T14:20:29 IST" duration-ms="6595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelNames -->
+        <test-method signature="totalPrice()[pri:8, instance:testScenarios.TripAdvisorTestScenarios@9225652]" started-at="2022-01-19T14:20:29 IST" name="totalPrice" finished-at="2022-01-19T14:20:30 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalPrice -->
+        <test-method signature="pricePerNight()[pri:9, instance:testScenarios.TripAdvisorTestScenarios@9225652]" started-at="2022-01-19T14:20:30 IST" name="pricePerNight" finished-at="2022-01-19T14:20:31 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricePerNight -->
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </test> <!-- Regression Test One -->
+    <test started-at="2022-01-19T14:20:31 IST" name="Smoke Test Two" finished-at="2022-01-19T14:20:48 IST" duration-ms="16444">
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <test-method signature="cruises()[pri:10, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" started-at="2022-01-19T14:20:31 IST" name="cruises" finished-at="2022-01-19T14:20:35 IST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruises -->
+        <test-method signature="cruiseLine()[pri:11, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" started-at="2022-01-19T14:20:35 IST" name="cruiseLine" finished-at="2022-01-19T14:20:39 IST" duration-ms="4253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruiseLine -->
+        <test-method signature="cruiseShip()[pri:12, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" started-at="2022-01-19T14:20:39 IST" name="cruiseShip" finished-at="2022-01-19T14:20:43 IST" duration-ms="4381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruiseShip -->
+        <test-method signature="changeWindow()[pri:13, instance:testScenarios.TripAdvisorTestScenarios@6a28ffa4]" started-at="2022-01-19T14:20:43 IST" name="changeWindow" finished-at="2022-01-19T14:20:48 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeWindow -->
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </test> <!-- Smoke Test Two -->
+    <test started-at="2022-01-19T14:20:48 IST" name="Regression Test Two" finished-at="2022-01-19T14:20:52 IST" duration-ms="3915">
+      <class name="testScenarios.TripAdvisorTestScenarios">
+        <test-method signature="PassengerCrewValue()[pri:14, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" started-at="2022-01-19T14:20:48 IST" name="PassengerCrewValue" finished-at="2022-01-19T14:20:48 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PassengerCrewValue -->
+        <test-method signature="launchedYearValue()[pri:15, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" started-at="2022-01-19T14:20:48 IST" name="launchedYearValue" finished-at="2022-01-19T14:20:49 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchedYearValue -->
+        <test-method signature="languageValue()[pri:16, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" started-at="2022-01-19T14:20:49 IST" name="languageValue" finished-at="2022-01-19T14:20:50 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageValue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScenarios.TripAdvisorTestScenarios@635eaaf1]" started-at="2022-01-19T14:20:50 IST" name="closeBrowser" finished-at="2022-01-19T14:20:52 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScenarios.TripAdvisorTestScenarios -->
+    </test> <!-- Regression Test Two -->
+  </suite> <!-- Functional Testing -->
+</testng-results>
