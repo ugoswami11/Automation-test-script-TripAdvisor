@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 14, Errors: 0, Skipped: 3, Time elapsed: 276.292 s <<< FAILURE! - in TestSuite
+testScenarios.TripAdvisorTestScenarios.selectDestination  Time elapsed: 1.066 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.selectDestination(TripAdvisorTestScenarios.java:88)
+
+testScenarios.TripAdvisorTestScenarios.checkInDate  Time elapsed: 10.047 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.checkInDate(TripAdvisorTestScenarios.java:104)
+
+testScenarios.TripAdvisorTestScenarios.checkOutDate  Time elapsed: 41.145 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.checkOutDate(TripAdvisorTestScenarios.java:118)
+
+testScenarios.TripAdvisorTestScenarios.setGuest  Time elapsed: 10.022 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.setGuest(TripAdvisorTestScenarios.java:135)
+
+testScenarios.TripAdvisorTestScenarios.sortBy  Time elapsed: 41.281 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.sortBy(TripAdvisorTestScenarios.java:150)
+
+testScenarios.TripAdvisorTestScenarios.liftAccess  Time elapsed: 10.016 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.liftAccess(TripAdvisorTestScenarios.java:173)
+
+testScenarios.TripAdvisorTestScenarios.hotelNames  Time elapsed: 15.063 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.hotelNames(TripAdvisorTestScenarios.java:195)
+
+testScenarios.TripAdvisorTestScenarios.totalPrice  Time elapsed: 10.011 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.totalPrice(TripAdvisorTestScenarios.java:215)
+
+testScenarios.TripAdvisorTestScenarios.pricePerNight  Time elapsed: 10.059 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.pricePerNight(TripAdvisorTestScenarios.java:242)
+
+testScenarios.TripAdvisorTestScenarios.cruises  Time elapsed: 10.053 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.cruises(TripAdvisorTestScenarios.java:256)
+
+testScenarios.TripAdvisorTestScenarios.cruiseLine  Time elapsed: 10.039 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.cruiseLine(TripAdvisorTestScenarios.java:272)
+
+testScenarios.TripAdvisorTestScenarios.cruiseShip  Time elapsed: 10.057 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.cruiseShip(TripAdvisorTestScenarios.java:296)
+
+testScenarios.TripAdvisorTestScenarios.PassengerCrewValue  Time elapsed: 10.046 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.PassengerCrewValue(TripAdvisorTestScenarios.java:335)
+
+testScenarios.TripAdvisorTestScenarios.launchedYearValue  Time elapsed: 10.074 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "userDefinedLibraries.FailReport.logger" is null
+	at testScenarios.TripAdvisorTestScenarios.launchedYearValue(TripAdvisorTestScenarios.java:358)
+
